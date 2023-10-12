@@ -11,6 +11,6 @@ import { CatsService } from './cats/cats.service';
 @Module({
   imports: [TelegramModule, WeatherModule],
   controllers: [AppController],
-  providers: [AppService, TelegramService, WeatherService, CatsService],
+  providers: [AppService, TelegramService, CatsService],
 })
 export class AppModule { }
